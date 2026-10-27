@@ -370,7 +370,7 @@ body {
     background-color: var(--color-action-hover);
     border-radius: 50%;
 
-    transform: rotate(-2deg);
+    transform: rotate(-2deg);   
 }
 
 /* cards */
@@ -1021,6 +1021,10 @@ body {
     align-items: flex-start;
     justify-content: center;
 
+    color: var(--color-teal);
+    font-family: var(--font-family-body);
+    font-size: 1.2vw;
+
     padding: 0 2%;
 }
 
@@ -1034,22 +1038,24 @@ body {
     font-size: clamp(10px, 1.05vw, 16px);
     line-height: 1.15;
     font-weight: 800;
-    color: #07566A;
+    color: teal;
 }
 
 .service-banner-highlight-title {
     color: #168C89;
+    
+    font-family: "Grandstander", cursive;
 
-    font-size: clamp(25px, 3.5vw, 52px);
+    font-size: 4vw;
     line-height: 1.05;
     font-weight: 800;
-
+    
     white-space: nowrap;
 }
 
 .service-banner-description {
     max-width: 300px;
-
+    
     margin: 8px 0 10px;
 
     font-size: clamp(8px, 0.75vw, 11px);
