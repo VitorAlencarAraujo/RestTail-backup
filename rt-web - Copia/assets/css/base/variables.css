@@ -1,0 +1,110 @@
+:root {
+    /* cores / colors */
+
+    --color-teal: #299B95;
+    --color-dark-teal: #238782;
+    --color-dark-blue-green: #103D52;
+
+    --color-neutral-white: #FFFFFF;
+    --color-neutral-black: #000000;
+    --color-neutral-dark-gray: #666666;
+    --color-neutral-light-gray: #999999;
+
+
+   /* funcionais / functional*/
+
+   /* fundo / background */
+    --color-bg-primary: var(--color-neutral-white); 
+    --color-bg-secondary: var(--color-dark-blue-green);
+
+   /* texto / text */
+    --color-text-primary: var(--color-dark-blue-green);
+    --color-text-secondary: var(--color-neutral-dark-gray);
+    --color-text-muted: var(--color-neutral-light-gray);
+    --color-text-clear: var(--color-neutral-white);
+    --color-text-inverse: var(--color-neutral-white);
+
+   /* interagivel / interactable */
+    --color-action-primary: var(--color-teal);
+    --color-action-hover: var(--color-dark-teal);
+
+   /* borda / border */
+    --color-border-primary: var(--color-neutral-light-gray);
+
+
+   /* fontes / fonts */
+
+    --font-family-inter: "Inter", sans-serif;
+    --font-family-arial: Arial, sans-serif;
+    --font-family-league-spartan: "League Spartan", sans-serif;
+
+   /*  tipografia / typhography */
+   /* tamanhos / sizes */
+    --font-size-13: 13px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-24: 24px;
+    --font-size-54: 54px;
+    --font-size-143: 143px;
+
+   
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+
+    --line-height-normal: 1.6;
+    --line-height-tight: 1;
+    --line-height-hero: 0.95;
+
+
+    /* funcionais / functional */
+
+    --font-family-body: var(--font-family-arial);
+    --font-family-heading: var(--font-family-league-spartan);
+
+    --font-size-body: var(--font-size-16);
+    --font-size-caption: var(--font-size-13);
+    --font-size-subtitle: var(--font-size-54);
+    --font-size-hero: var(--font-size-143);
+
+    --font-weight-body: var(--font-weight-regular);
+    --font-weight-heading: var(--font-weight-bold);
+
+    --line-height-body: var(--line-height-normal);
+    --line-height-heading: var(--line-height-tight);
+
+
+    /* espaçamento / spacing */
+
+    --spacing-1: 4px;
+    --spacing-2: 8px;
+    --spacing-3: 12px;
+    --spacing-4: 20px;
+    --spacing-5: 32px;
+    --spacing-6: 38px;
+
+
+    /* funcionais / functional */
+
+    --spacing-component: var(--spacing-2);
+    --spacing-element: var(--spacing-3);
+    --spacing-section: var(--spacing-4);
+    --spacing-layout: var(--spacing-5);
+    --spacing-layout-large: var(--spacing-6);
+
+
+    /* bordas e arredondamento / borders and rounding */
+
+    --border-width-thin: 1px;
+    --border-width-medium: 2px;
+
+    --border-radius-small: 7px;
+    --border-radius-medium: 15px;
+    --border-radius-large: 25px;
+
+
+    /* layout*/
+
+    --layout-container-width: 1280px;
+    --layout-container-padding: 78px;
+}
