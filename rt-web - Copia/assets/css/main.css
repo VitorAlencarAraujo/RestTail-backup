@@ -1000,8 +1000,8 @@ body {
 .banner-cat-dog {
     display: block;
 
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 
     object-fit: contain;
     object-position: center bottom;
@@ -1021,44 +1021,35 @@ body {
     align-items: flex-start;
     justify-content: center;
 
-    color: var(--color-teal);
     font-family: var(--font-family-body);
-    font-size: 1.2vw;
 
     padding: 0 2%;
 }
 
 .service-banner-title {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    margin: 0;
-
-    font-size: clamp(10px, 1.05vw, 16px);
-    line-height: 1.15;
-    font-weight: 800;
-    color: teal;
+    color: #108180;
+    font-weight:  bolder;
+    font-size: 1vw;
 }
 
+
 .service-banner-highlight-title {
-    color: #168C89;
+
     
     font-family: "Grandstander", cursive;
 
-    font-size: 4vw;
-    line-height: 1.05;
+    font-size: 5vw;
     font-weight: 800;
     
     white-space: nowrap;
 }
 
 .service-banner-description {
-    max-width: 300px;
-    
-    margin: 8px 0 10px;
+    max-width: 500px;
+    margin-top: -5px;
 
-    font-size: clamp(8px, 0.75vw, 11px);
+    font-family: var(--font-family-body);
+    font-size: 1.2vw;
     line-height: 1.5;
     color: #277D80;
 }
@@ -1069,19 +1060,21 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
 
-    padding: 8px 12px;
+    margin-top: 20px;
+
+    padding: 1vw;
 
     border-radius: 30px;
     background-color: #258F89;
     color: #FFFFFF;
 
-    font-size: clamp(8px, 0.65vw, 10px);
-    font-weight: 700;
-    text-decoration: none;
+    font-family: var(--font-family-inter);
+    font-weight: bold;
+    font-size: 1vw;
 
-    box-shadow: 0 3px 6px rgb(0 0 0 / 15%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 50%);
 
     transition:
         background-color 0.2s ease,
@@ -1109,57 +1102,45 @@ body {
     border-left: 1px solid rgb(22 105 111 / 40%);
 }
 
+/* banefits image */
+
+.service-banner-benefits img {
+    width: 13%;
+}
+
+
 /* List */
 
 .service-banner-benefits {
     width: 100%;
 
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
+    gap: 1.3vw;
 
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
 }
 
-.service-banner-benefits li {
+.service-banner-list-benefits {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    justify-content: center;
 
-    color: #176F79;
+    flex-direction: column;
+    list-style: none;
 
-    font-size: clamp(7px, 0.65vw, 10px);
+    font-family: var(--font-family-body) ;
+
+    color: var(--color-text-primary);
+
+    gap: 1.8vw;
+    font-size: 1vw;
     font-weight: 700;
     line-height: 1.3;
 }
 
-/* icons */
-
-.benefit-icon {
-    width: 23px;
-    height: 23px;
-
-    flex-shrink: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border: 1px solid #58AAA5;
-    border-radius: 50%;
-
-    background-color: #FFFFFF;
-    color: #278F89;
-
-    font-size: 12px;
-    font-weight: 800;
+.list-change-color {
+    color: var(--color-teal);
 }
 
-/* Responsividade */
+/* responsiveness */
 
 @media (max-width: 700px) {
     .services-banner {
@@ -1243,7 +1224,7 @@ body {
         font-size: 8px;
     }
 }
-/* responsiveness */
+
 
 @media (max-width: 700px) {
     .services {
